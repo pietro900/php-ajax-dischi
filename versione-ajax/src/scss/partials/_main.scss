@@ -1,0 +1,47 @@
+.cds-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px 0;
+}
+
+.cd {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 200px;
+    padding: $dimensione;
+    margin: 10px $dimensione;
+    height: 360px;
+    background: rgb(46, 58, 70);
+    text-align: center;
+
+    img {
+        max-width: 80%;
+    }
+
+    h3 {
+        margin: $dimensione 0;
+        color: white;
+        font-size: 22px;
+        text-transform: uppercase;
+    }
+
+    span.author {
+        color: $colore_span;
+    }
+
+    span.year {
+        color: $colore_span;
+    }
+
+    span.genre {
+        color: $colore_span;
+    }
+
+    span.title {
+        color: $colore_span;
+    }
+}

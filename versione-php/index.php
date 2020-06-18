@@ -11,6 +11,18 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <header>
+            <div class="container">
+                <img src=".../versione-ajax/logo.png" alt="logo" />
+                <select name="ricerca" id="ricerca">
+                    <option value="tutti">Tutti</option>
+                    <option value="rock">Rock</option>
+                    <option value="pop">Pop</option>
+                    <option value="jazz">Jazz</option>
+                    <option value="metal">Metal</option>
+                </select>
+            </div>
+        </header>
         <div class="cds-container container">
             <?php  foreach ($dischi as $disco) { ?>
             <div class="cd">
